@@ -12,18 +12,18 @@ PrognosAI is an AI-driven predictive maintenance system that estimates the Remai
 ## Features
 
 ### 🎯 Core Capabilities
-- **🤖 AI-Powered RUL Prediction**: LSTM/GRU/CNN-LSTM models for accurate remaining useful life estimation
-- **🔔 Real-time Risk Assessment**: Automated alert system with warning and critical thresholds
-- **📊 Interactive Dashboard**: Professional Streamlit interface with real-time visualizations
-- **📁 Multi-Dataset Support**: FD001, FD002, FD003, FD004 CMAPSS datasets
-- **🔄 Simulation Mode**: Works without trained models for demonstration
+- ** AI-Powered RUL Prediction**: LSTM/GRU/CNN-LSTM models for accurate remaining useful life estimation
+- ** Real-time Risk Assessment**: Automated alert system with warning and critical thresholds
+- ** Interactive Dashboard**: Professional Streamlit interface with real-time visualizations
+- ** Multi-Dataset Support**: FD001, FD002, FD003, FD004 CMAPSS datasets
+- ** Simulation Mode**: Works without trained models for demonstration
 
 ### 📊 Dashboard Features
-- **📈 Live Metrics**: Critical/Warning/Normal alerts tracking
-- **📊 Interactive Charts**: RUL distribution, trend analysis, error visualization
-- **💾 Export Capabilities**: CSV reports, model downloads, configuration exports
-- **⚡ Performance Monitoring**: RMSE, MAE, R² scores and accuracy metrics
-- **⚙️ Customizable Settings**: Threshold configuration, visualization options
+- ** Live Metrics**: Critical/Warning/Normal alerts tracking
+- ** Interactive Charts**: RUL distribution, trend analysis, error visualization
+- ** Export Capabilities**: CSV reports, model downloads, configuration exports
+- ** Performance Monitoring**: RMSE, MAE, R² scores and accuracy metrics
+- ** Customizable Settings**: Threshold configuration, visualization options
 
 ### 🏗️ Architecture Diagrams
 ## 1. Interface Architecture
@@ -32,7 +32,7 @@ PrognosAI is an AI-driven predictive maintenance system that estimates the Remai
 ## 2. Colab Training Architecture
 <img width="4847" height="13698" alt="collab arch" src="https://github.com/user-attachments/assets/cfed6037-d369-4704-ac57-06caf479135c" />
 
-### 3. 🏗️ Project Structure
+### 3.  Project Structure
 <img width="1131" height="684" alt="image" src="https://github.com/user-attachments/assets/2cbad8b3-dea4-49e3-8843-bc804f847b78" />
 
 
@@ -74,7 +74,7 @@ In the application:
 - 📈 **Analysis**: Detailed statistical analysis  
 - ⚙️ **Settings**: System configuration and optimization
 
-## 🤖 Model Training  
+##  Model Training  
 Using Jupyter Notebook  
 
 
@@ -165,13 +165,13 @@ The system provides comprehensive evaluation:
 - Logging: Structured logging for debugging
 
 
-### 🙏 Acknowledgments
+###  Acknowledgments
 - NASA: For the CMAPSS datasets
 - TensorFlow/Keras: Deep learning frameworks
 - Streamlit: Interactive web application framework
 - Plotly: Interactive visualization library
 - Infosys Mentor: For technical guidance and project supervision
 
-## PrognosAI - Predicting Failures Before They Happen 🔧🤖
+## PrognosAI - Predicting Failures Before They Happen 🔧
 
 ## Built for the Infosys Virtual Internship Program
