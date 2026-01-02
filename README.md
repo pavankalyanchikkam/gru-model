@@ -25,7 +25,14 @@ PrognosAI is an AI-driven predictive maintenance system that estimates the Remai
 - **⚡ Performance Monitoring**: RMSE, MAE, R² scores and accuracy metrics
 - **⚙️ Customizable Settings**: Threshold configuration, visualization options
 
-### 🏗️ Project Structure
+### 🏗️ Architecture Diagrams
+## 1. Interface Architecture
+<img width="3462" height="7839" alt="interface acrhi" src="https://github.com/user-attachments/assets/8da1bbdf-ce9c-4190-9485-40529461035e" />
+
+## 2. Colab Training Architecture
+<img width="4847" height="13698" alt="collab arch" src="https://github.com/user-attachments/assets/cfed6037-d369-4704-ac57-06caf479135c" />
+
+### 3. 🏗️ Project Structure
 <img width="1131" height="684" alt="image" src="https://github.com/user-attachments/assets/2cbad8b3-dea4-49e3-8843-bc804f847b78" />
 
 
@@ -126,9 +133,45 @@ The system provides comprehensive evaluation:
 | Alert Accuracy  | Correct alert classification    | > 90%          |
 | Inference Time  | Prediction time per unit        | < 100ms        |
 
+### 📈 Results & Output
+### Generated Artifacts
+- CSV Reports: Complete prediction data with metadata
+- Visualizations: Interactive Plotly charts (HTML/PNG)
+- Model Files: Trained .keras models with configurations
+- Scalers: Feature normalization parameters
+- Logs: Training history and performance metrics
 
-<img width="3462" height="7839" alt="interface acrhi" src="https://github.com/user-attachments/assets/5e312762-dd8d-49d1-8a29-5f7b0e41e68d" />
+## Sample Output
+
+    📊 Dataset: FD001
+    ✅ Units Analyzed: 100
+    🔴 Critical Alerts: 15
+    🟡 Warning Alerts: 25
+    🟢 Normal Status: 60
+    📈 RMSE: 18.42 cycles
+    🎯 Accuracy (±20 cycles): 87.5%
+
+### 🛡️ Quality Assurance
+### Testing Strategy
+- Unit Tests: Individual component validation
+- Integration Tests: End-to-end workflow testing
+- Performance Tests: Memory usage and response time
+- Data Validation: CMAPSS format compliance checking
+
+### Code Quality
+- Type Hints: Python type annotations throughout
+- Docstrings: Comprehensive function documentation
+- Error Handling: Graceful degradation and user feedback
+- Logging: Structured logging for debugging
 
 
+### 🙏 Acknowledgments
+- NASA: For the CMAPSS datasets
+- TensorFlow/Keras: Deep learning frameworks
+- Streamlit: Interactive web application framework
+- Plotly: Interactive visualization library
+- Infosys Mentor: For technical guidance and project supervision
 
+## PrognosAI - Predicting Failures Before They Happen 🔧🤖
 
+## Built for the Infosys Virtual Internship Program
