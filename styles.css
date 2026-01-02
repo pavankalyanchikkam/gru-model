@@ -1,0 +1,9 @@
+/* Minimal CSS for low RAM */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Reduce animation for better performance */
+* {
+    animation-duration: 0.1s !important;
+}
