@@ -24,6 +24,8 @@ PrognosAI is an AI-driven predictive maintenance system that estimates the Remai
 - **💾 Export Capabilities**: CSV reports, model downloads, configuration exports
 - **⚡ Performance Monitoring**: RMSE, MAE, R² scores and accuracy metrics
 - **⚙️ Customizable Settings**: Threshold configuration, visualization options
+
+### 🏗️ Project Structure
 <img width="1131" height="684" alt="image" src="https://github.com/user-attachments/assets/2cbad8b3-dea4-49e3-8843-bc804f847b78" />
 
 
@@ -125,35 +127,7 @@ The system provides comprehensive evaluation:
 | Inference Time  | Prediction time per unit        | < 100ms        |
 
 
-### 🏗️ Project Structure
-```text
-PrognosAI/
-├── 📁 app/                          # Main application
-│   ├── main.py                      # Streamlit application entry point
-│   ├── config.py                    # Configuration settings
-│   └── styles.css                   # Minimal CSS for styling
-│
-├── 📁 src/                          # Source code modules
-│   ├── data_processor.py            # CMAPSS data processing
-│   ├── model_handler.py             # Model prediction handler
-│   ├── visualizations.py            # Plotly chart generation
-│   └── file_handler.py              # File operations and validation
-│
-├── 📁 notebooks/                    # Jupyter notebooks
-│   └── prognos.ipynb                # Complete training pipeline
-│
-├── 📁 models/                       # Trained model storage
-├── 📁 test_data/                    # Sample test files
-├── 📁 uploads/                      # User uploads
-├── 📁 assets/                       # Static assets
-│
-├── 📁 docs/                         # Documentation
-│   └── AI-PrognosAI.pdf             # Project documentation
-│
-├── 📄 requirements.txt              # Python dependencies
-├── 📄 setup.bat                     # Windows setup script
-├── 📄 run.bat                       # Windows run script
-└── 📄 README.md                     # This file
+<img width="3462" height="7839" alt="interface acrhi" src="https://github.com/user-attachments/assets/5e312762-dd8d-49d1-8a29-5f7b0e41e68d" />
 
 
 
