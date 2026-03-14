@@ -141,7 +141,7 @@ The system provides comprehensive evaluation:
 - Scalers: Feature normalization parameters
 - Logs: Training history and performance metrics
 
-## Sample Output
+## Output
 
     📊 Dataset: FD001
     ✅ Units Analyzed: 100
